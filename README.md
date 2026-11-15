@@ -25,3 +25,11 @@ python3 face_recognizer.py
 Use `--camera 1` to select another webcam, `--cpu` to force CPU inference, or `--threshold 0.55` to change the face-match cosine-similarity threshold. The video overlay shows the measured eye aspect ratio (EAR) and the current closed-eye cutoff. If a blink is missed, try a higher closure ratio, such as `--eye-closure-ratio 0.8`. Press `q` in the video window to quit.
 
 The blink indicator is a simple eye-landmark heuristic. It is useful as a demo prompt, but it does not provide secure liveness or spoof protection.
+
+
+
+## Authors
+
+- [Arian Jafari](https://github.com/Arian-jafari)
+- [Parsa Shahkar](https://github.com/parsashahkar21)
+- [Paniz Roozegar](https://github.com/paniizz)
